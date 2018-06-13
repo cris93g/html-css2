@@ -1,0 +1,28 @@
+body {
+  background-image: url("https://s3.amazonaws.com/designco-web-assets/uploads/2017/07/Podcast-large_2x-1450x1112.png");
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+header nav div {
+  flex-direction: row;
+}
+main {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
